@@ -1,0 +1,112 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#header {
+    color: white;
+    background-color: #BC0000;
+    font-family: 'Syncopate';
+    padding-top: 170px;
+    font-size: 40px;
+    text-align: center;
+    height: 100px;
+    left: 60%;
+}
+
+#left_section {
+    float: left;
+    width: 10%;
+}
+
+#right_section {
+    float: right;
+    width: 89%;
+}
+
+.container { 
+    margin-top: 50px;
+}
+
+.inputform {
+    padding-top: 10px;
+    padding-left: 20%;
+    padding-right: 20%;	
+    font-family: Helvetica;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#form_two {
+    display: none;
+}
+
+#input {
+    height: 30px;
+    font-size: 20px;
+    padding: 5px 15px 5px 15px;
+}
+
+#input_two {
+    height: 30px;
+    font-size: 20px;
+    padding: 5px 15px 5px 15px;
+}
+
+#in_code {
+    height: 40px;
+    font-size: 20px;
+    padding: 2px 15px 2px 15px; 
+    pointer: cursor;
+}
+
+#out_code {
+    height: 40px;
+    font-size: 20px;
+    padding: 2px 15px 2px 15px;  
+    pointer: cursor;
+}
+
+.btn_convert {
+    background-color: #BC0000;
+    border: none;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;    
+}
+
+#output {
+    margin-top: 150px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #BC0000;
+    width: 100%;
+}
+
+.button { 
+    margin-top: 20px;
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+#button_one {
+    background-color: #BC0000;
+    color: white;
+}
